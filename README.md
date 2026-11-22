@@ -25,6 +25,10 @@ The key idea is **simple connectivity**, and you can grasp it with a lasso.
 
 A space in which **every** loop can be shrunk to a point is called **simply connected**. Spheres are simply connected; doughnuts (and anything with a hole) are not. This single property beautifully separates "sphere-like" from "hole-y" spaces.
 
+![The lasso test: on a sphere every loop shrinks to a point; on a torus a loop threaded through the hole cannot shrink.](Poincare_fig1_lasso.svg)
+
+*Figure 1. The lasso test. On the sphere (left), any loop of string can be slid along the surface and tightened down to a point. On the torus (right), a loop threaded through the hole is trapped: no continuous deformation can free it.*
+
 Poincaré asked about the analogue in one dimension higher. A **closed three-manifold** is a three-dimensional space that is finite in extent, has no boundary, and looks locally like ordinary three-dimensional space — the kind of space our own universe might be. And there is a distinguished example, the **three-sphere** $S^3$, the three-dimensional analogue of the ordinary sphere's surface.
 
 > **The Poincaré conjecture (1904).** *Every closed, simply connected three-manifold is homeomorphic to the three-sphere.*
@@ -33,7 +37,7 @@ In plain language: **if a three-dimensional world has no holes (every loop shrin
 
 ## 3. Why a century of failure?
 
-The conjecture is disarmingly easy to state, yet it defeated generations of topologists. Higher-dimensional versions turned out to be *easier* and were solved first (Smale in dimension $\ge 5$, 1961; Freedman in dimension 4, 1982), but dimension three — our own dimension — stayed stubbornly open. The reason is that three-dimensional topology has just enough room to bewilderingly complicated, yet not enough room for the powerful "wiggling" tricks that work in higher dimensions.
+The conjecture is disarmingly easy to state, yet it defeated generations of topologists. Higher-dimensional versions turned out to be *easier* and were solved first (Smale in dimension $\ge 5$, 1961; Freedman in dimension 4, 1982), but dimension three — our own dimension — stayed stubbornly open. The reason is that three-dimensional topology has just enough room to be bewilderingly complicated, yet not enough room for the powerful "wiggling" tricks that work in higher dimensions.
 
 What was missing was a way to take an arbitrary, unknown three-manifold and **improve** it — to flow it, continuously, toward a nicer shape whose topology one could read off. That tool arrived from an unexpected direction.
 
@@ -49,6 +53,10 @@ The intuition is exactly like **heat flow**. Heat diffuses so that hot spots coo
 
 But there was a serious obstacle: **singularities**. In finite time, the flow can develop points where curvature blows up to infinity — the space "pinches" and the equation breaks down. Hamilton made spectacular progress but could not fully control these singularities well enough to push through to a proof of Poincaré.
 
+![Ricci flow smooths a bumpy metric toward a uniform one, like heat diffusion evens out temperature.](Poincare_fig2_ricciflow.svg)
+
+*Figure 2. Ricci flow in pictures. The metric evolves by $\partial g/\partial t = -2\,\mathrm{Ric}(g)$: regions of high positive curvature (the "bumps") shrink, like hot spots cooling under heat flow. Hamilton's hope was that a bumpy three-sphere would flow to a perfectly round one.*
+
 ## 5. Perelman: taming the singularities
 
 Between 2002 and 2003, **Grigori Perelman**, a Russian mathematician working in near-isolation, posted three preprints to the arXiv that completed Hamilton's program. His contribution was not merely technical; it introduced profound new ideas:
@@ -59,7 +67,11 @@ Between 2002 and 2003, **Grigori Perelman**, a Russian mathematician working in 
 
 3. **Surgery.** When a singularity forms, Perelman showed it always has a recognizable structure (a "neck" that looks like a cylinder). One can then perform **surgery**: cut out the singular neck, cap it off smoothly, and restart the flow. The manifold is progressively simplified into standard pieces, and one tracks the topology through each cut.
 
-By combining monotonicity, non-collapsing, and a precise understanding of singularity formation, Perelman proved that Ricci flow with surgery succeeds: any closed, simply connected three-manifold flows, through finitely many surgeries, to a configuration recognizable as the three-sphere. The conjecture follows. (A separate argument, his third paper, showed that on simply connected manifolds the flow becomes extinct in finite time, simplifying the conclusion.)
+By combining monotonicity, non-collapsing, and a precise understanding of singularity formation, Perelman completed Hamilton's program. The decisive input, from his third preprint, is **finite extinction**: on a closed simply connected three-manifold, Ricci flow with surgery becomes **extinct in finite time** — nothing is left at extinction time. Running the surgery analysis backwards then forces the initial manifold to have been the three-sphere, and the conjecture follows. For general three-manifolds the same method instead leaves behind a disjoint union of pieces carrying one of eight canonical geometries — this is the stronger **geometrization theorem**.
+
+![Surgery: when the curvature blows up on a shrinking neck, the neck is cut out and the ends are capped smoothly.](Poincare_fig3_surgery.svg)
+
+*Figure 3. Surgery on a neck. Left: a dumbbell-shaped region where curvature blows up on the thin neck. Middle: the neck pinches to a point. Right: after cutting the neck out and capping the two ends with smooth disks, the flow restarts on the simplified pieces.*
 
 ## 6. Verification, fame, and a refusal
 

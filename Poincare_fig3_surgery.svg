@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" font-family="Georgia, serif">
+<rect width="680" height="300" fill="#ffffff"/>
+<text x="340" y="28" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a1a2e">Surgery: cutting the singular neck and capping the ends</text>
+<circle cx="72" cy="150" r="48" fill="#dceaf7" stroke="#2b5f8a" stroke-width="2.2"/>
+<circle cx="168" cy="150" r="48" fill="#dceaf7" stroke="#2b5f8a" stroke-width="2.2"/>
+<path d="M 72 102 C 106 118 134 118 168 102" fill="#dceaf7" stroke="#2b5f8a" stroke-width="2.2"/>
+<path d="M 72 198 C 106 182 134 182 168 198" fill="#dceaf7" stroke="#2b5f8a" stroke-width="2.2"/>
+<circle cx="120" cy="150" r="6" fill="#c0392b"/>
+<text x="120" y="252" text-anchor="middle" font-size="14" fill="#c0392b">curvature blows up on the neck</text>
+<line x1="212" y1="150" x2="262" y2="150" stroke="#888" stroke-width="2" marker-end="url(#arr3)"/>
+<circle cx="330" cy="150" r="30" fill="#dceaf7" stroke="#2b5f8a" stroke-width="2.2"/>
+<circle cx="410" cy="150" r="30" fill="#dceaf7" stroke="#2b5f8a" stroke-width="2.2"/>
+<circle cx="370" cy="150" r="7" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="4,3"/>
+<text x="370" y="252" text-anchor="middle" font-size="14" fill="#2b5f8a">neck pinches &#8212; cut it out</text>
+<line x1="452" y1="150" x2="502" y2="150" stroke="#888" stroke-width="2" marker-end="url(#arr3)"/>
+<circle cx="560" cy="150" r="27" fill="#e3f2e1" stroke="#2e8b57" stroke-width="2.2"/>
+<circle cx="560" cy="123" r="5" fill="#2e8b57"/>
+<circle cx="624" cy="150" r="27" fill="#e3f2e1" stroke="#2e8b57" stroke-width="2.2"/>
+<circle cx="624" cy="123" r="5" fill="#2e8b57"/>
+<text x="592" y="252" text-anchor="middle" font-size="14" fill="#2e8b57">cap the ends, restart the flow</text>
+<text x="340" y="285" text-anchor="middle" font-size="14" fill="#444">each surgery simplifies the manifold; topology is tracked through every cut (Perelman, P2)</text>
+<defs><marker id="arr3" markerWidth="9" markerHeight="9" refX="7" refY="3.5" orient="auto"><path d="M0,0 L8,3.5 L0,7 z" fill="#888"/></marker></defs>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" font-family="Georgia, serif">
+<rect width="680" height="260" fill="#ffffff"/>
+<text x="340" y="28" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a1a2e">Ricci flow smooths curvature, like heat diffuses temperature</text>
+<path d="M 171.0 140.0 Q 171.0 140.0 154.4 150.3 Q 137.9 160.6 130.6 168.1 Q 123.4 175.6 113.0 174.4 Q 102.6 173.2 91.0 190.7 Q 79.4 208.2 69.0 196.9 Q 58.6 185.7 51.4 175.1 Q 44.1 164.5 55.6 152.2 Q 67.0 140.0 55.6 127.8 Q 44.1 115.5 51.4 104.9 Q 58.6 94.3 69.0 83.1 Q 79.4 71.8 91.0 89.3 Q 102.6 106.8 113.0 105.6 Q 123.4 104.4 130.6 111.9 Q 137.9 119.4 154.4 129.7 Z" fill="#e8e3f5" stroke="#5b3f9e" stroke-width="2.2"/>
+<text x="95" y="222" text-anchor="middle" font-size="14" fill="#5b3f9e">t = 0</text>
+<line x1="161" y1="140" x2="204" y2="140" stroke="#888" stroke-width="2" marker-end="url(#arr2)"/>
+<path d="M 335.5 140.0 Q 335.5 140.0 325.1 150.7 Q 314.6 161.5 307.4 169.7 Q 300.2 177.8 289.7 179.3 Q 279.3 180.8 267.8 190.7 Q 256.2 200.6 245.8 192.0 Q 235.3 183.5 228.1 173.6 Q 220.9 163.6 226.2 151.8 Q 231.5 140.0 226.2 128.2 Q 220.9 116.4 228.1 106.4 Q 235.3 96.5 245.8 88.0 Q 256.2 79.4 267.8 89.3 Q 279.3 99.2 289.7 100.7 Q 300.2 102.2 307.4 110.3 Q 314.6 118.5 325.1 129.3 Z" fill="#e8e3f5" stroke="#5b3f9e" stroke-width="2.2"/>
+<text x="270" y="222" text-anchor="middle" font-size="14" fill="#5b3f9e">t&#8321;</text>
+<line x1="336" y1="140" x2="379" y2="140" stroke="#888" stroke-width="2" marker-end="url(#arr2)"/>
+<path d="M 503.0 140.0 Q 503.0 140.0 496.9 151.0 Q 490.9 162.1 483.6 170.7 Q 476.4 179.4 466.0 182.9 Q 455.6 186.3 444.0 190.7 Q 432.4 195.1 422.0 188.5 Q 411.6 181.9 404.4 172.5 Q 397.1 163.0 398.1 151.5 Q 399.0 140.0 398.1 128.5 Q 397.1 117.0 404.4 107.5 Q 411.6 98.1 422.0 91.5 Q 432.4 84.9 444.0 89.3 Q 455.6 93.7 466.0 97.1 Q 476.4 100.6 483.6 109.3 Q 490.9 117.9 496.9 129.0 Z" fill="#e8e3f5" stroke="#5b3f9e" stroke-width="2.2"/>
+<text x="445" y="222" text-anchor="middle" font-size="14" fill="#5b3f9e">t&#8322;</text>
+<line x1="511" y1="140" x2="534" y2="140" stroke="#888" stroke-width="2" marker-end="url(#arr2)"/>
+<circle cx="600" cy="140" r="52" fill="#e8e3f5" stroke="#5b3f9e" stroke-width="2.2"/>
+<text x="600" y="222" text-anchor="middle" font-size="14" fill="#5b3f9e">t &#8594; &#8734;</text>
+<text x="340" y="235" text-anchor="middle" font-size="14" fill="#444">&#8706;g/&#8706;t = &#8722;2 Ric(g)   &#183;   hot spots (high curvature) cool down, the geometry becomes uniform</text>
+<defs><marker id="arr2" markerWidth="9" markerHeight="9" refX="7" refY="3.5" orient="auto"><path d="M0,0 L8,3.5 L0,7 z" fill="#888"/></marker></defs>
+</svg>
